@@ -1,6 +1,12 @@
-    # def sum_even_number_in_queue(self):
-    #     for i in range(self.front,self.rear+1):
-    #         list(self.queue[i]%2==0)
-    #         if(self.queue[i]%2==0):
-    #             sum+=self.queue[i]
-    #     print(f"sum is {sum}")
+class A:
+#     def __hi(self):
+#         print("Hello i am private")
+# class B(A):
+#     def greet(self):
+#         print("Good Morning ")
+
+# objb = B()
+# objb.greet()
+
+# obja = A()
+# obja.hi()
