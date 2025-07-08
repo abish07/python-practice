@@ -38,18 +38,19 @@ class Queue:
                 print()
 
     def sum_even_number_in_queue(self):
-        sum=0
+        # sum=0
         if self.rear==-1 or self.front==-1 or self.front>self.rear:
             print("Queue is empty")
         else:
+            evenList = []
             for i in range(self.front,self.rear+1):
-                # evenList = []
-                # evenList.append(self.queue[i]%2==0)
-                # sum(evenList)
-                print()
                 if(self.queue[i]%2==0):
-                    sum+=self.queue[i]
-            print(f"sum is {sum}")
+                    evenList.append(self.queue[i])
+            even_sum = sum(evenList)
+                # print()
+                # if(self.queue[i]%2==0):
+                #     sum+=self.queue[i]
+            print(f"sum is {even_sum}")
             
 def main():
     size=int(input("Enter the size of the queue"))
